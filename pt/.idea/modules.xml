@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pt.iml" filepath="$PROJECT_DIR$/pt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-auth/pt-auth.iml" filepath="$PROJECT_DIR$/pt-auth/pt-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-center/pt-center.iml" filepath="$PROJECT_DIR$/pt-center/pt-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-center/pt-center-user/pt-center-user.iml" filepath="$PROJECT_DIR$/pt-center/pt-center-user/pt-center-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-common/pt-common.iml" filepath="$PROJECT_DIR$/pt-common/pt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-dealer/pt-dealer.iml" filepath="$PROJECT_DIR$/pt-dealer/pt-dealer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-dealer/pt-dealer-user/pt-dealer-user.iml" filepath="$PROJECT_DIR$/pt-dealer/pt-dealer-user/pt-dealer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-eureka/pt-eureka.iml" filepath="$PROJECT_DIR$/pt-eureka/pt-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-gateway/pt-gateway.iml" filepath="$PROJECT_DIR$/pt-gateway/pt-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-manor/pt-manor.iml" filepath="$PROJECT_DIR$/pt-manor/pt-manor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-manor/pt-manor-user/pt-manor-user.iml" filepath="$PROJECT_DIR$/pt-manor/pt-manor-user/pt-manor-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-user/pt-user.iml" filepath="$PROJECT_DIR$/pt-user/pt-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-warehouse/pt-warehouse.iml" filepath="$PROJECT_DIR$/pt-warehouse/pt-warehouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pt-warehouse/pt-warehouse-user/pt-warehouse-user.iml" filepath="$PROJECT_DIR$/pt-warehouse/pt-warehouse-user/pt-warehouse-user.iml" />
+    </modules>
+  </component>
+</project>

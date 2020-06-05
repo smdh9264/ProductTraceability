@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/pt-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-center/pt-center-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-dealer/pt-dealer-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-gateway/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-manor/pt-manor-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pt-warehouse/pt-warehouse-user/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

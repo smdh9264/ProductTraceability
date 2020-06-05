@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.GetMapping" />
+    </list>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-dealer/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-dealer/pt-dealer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-center/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-center/pt-center-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-manor/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-warehouse/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-manor/pt-manor-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-warehouse/pt-warehouse-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pt-user/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

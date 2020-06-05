@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pt.ptuser.mapper.SysRoleMenuMapper">
+  <resultMap id="BaseResultMap" type="com.pt.ptuser.entity.SysRoleMenu">
+    <!--@mbg.generated-->
+    <!--@Table dealer_role_menu-->
+    <id column="role_id" jdbcType="VARCHAR" property="roleId" />
+    <id column="menu_id" jdbcType="VARCHAR" property="menuId" />
+  </resultMap>
+
+  <!-- 通过用户ID，查询角色信息-->
+  <select id="listRoleMenu" resultMap="BaseResultMap" statementType="STATEMENT">
+    SELECT
+    rm.*
+    FROM ${clientId}_role_menu rm
+    WHERE rm.role_id = '${roleId}'
+  </select>
+</mapper>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pt.ptuser.mapper.SysDeptMapper">
+  <resultMap id="BaseResultMap" type="com.pt.ptuser.entity.SysDept">
+    <!--@mbg.generated-->
+    <!--@Table dealer_dept-->
+    <id column="dept_id" jdbcType="VARCHAR" property="deptId" />
+    <result column="parent_id" jdbcType="VARCHAR" property="parentId" />
+    <result column="ancestors" jdbcType="VARCHAR" property="ancestors" />
+    <result column="dept_name" jdbcType="VARCHAR" property="deptName" />
+    <result column="order_num" jdbcType="INTEGER" property="orderNum" />
+    <result column="leader" jdbcType="VARCHAR" property="leader" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="del_flag" jdbcType="CHAR" property="delFlag" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="selectSysDept">
+        select d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.phone, d.email, d.status, d.del_flag, d.create_by, d.create_time
+        from dynamic_dept d
+    </sql>
+  <select id="selectDeptList"  resultMap="BaseResultMap">
+    <include refid="selectSysDept"/>
+    where d.del_flag = '0'
+    <if test="parentId != null and parentId != 0">
+      AND parent_id = #{parentId}
+    </if>
+    <if test="deptName != null and deptName != ''">
+      AND dept_name like concat('%', #{deptName}, '%')
+    </if>
+    <if test="status != null and status != ''">
+      AND status = #{status}
+    </if>
+    order by d.parent_id, d.order_num
+  </select>
+</mapper>

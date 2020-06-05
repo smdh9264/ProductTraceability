@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pt-warehouse" />
+        <module name="pt-dealer" />
+        <module name="pt-auth" />
+        <module name="pt-center" />
+        <module name="pt-manor-user" />
+        <module name="pt-dealer-user" />
+        <module name="pt-manor" />
+        <module name="pt-gateway" />
+        <module name="pt-user" />
+        <module name="pt-center-user" />
+        <module name="pt-warehouse-user" />
+        <module name="pt-common" />
+        <module name="pt-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="pt" target="8" />
+      <module name="pt-auth" target="8" />
+      <module name="pt-center" target="8" />
+      <module name="pt-center-user" target="8" />
+      <module name="pt-common" target="8" />
+      <module name="pt-dealer" target="8" />
+      <module name="pt-dealer-user" target="8" />
+      <module name="pt-eureka" target="8" />
+      <module name="pt-gateway" target="8" />
+      <module name="pt-manor" target="8" />
+      <module name="pt-manor-user" target="8" />
+      <module name="pt-user" target="8" />
+      <module name="pt-warehouse" target="8" />
+      <module name="pt-warehouse-user" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pt" options="" />
+      <module name="pt-auth" options="-parameters" />
+      <module name="pt-center" options="-parameters" />
+      <module name="pt-center-user" options="-parameters" />
+      <module name="pt-common" options="-parameters" />
+      <module name="pt-dealer" options="-parameters" />
+      <module name="pt-dealer-user" options="-parameters" />
+      <module name="pt-eureka" options="-parameters" />
+      <module name="pt-gateway" options="-parameters" />
+      <module name="pt-manor" options="-parameters" />
+      <module name="pt-manor-user" options="-parameters" />
+      <module name="pt-user" options="-parameters" />
+      <module name="pt-warehouse" options="-parameters" />
+      <module name="pt-warehouse-user" options="-parameters" />
+    </option>
+  </component>
+</project>

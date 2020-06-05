@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pt.ptuser.mapper.SysUserRoleMapper">
+  <resultMap id="BaseResultMap" type="com.pt.ptuser.entity.SysUserRole">
+    <!--@mbg.generated-->
+    <!--@Table dealer_user_role-->
+    <id column="user_id" jdbcType="VARCHAR" property="userId" />
+    <id column="role_id" jdbcType="VARCHAR" property="roleId" />
+  </resultMap>
+  <sql id="selectSysUserRole">
+        select ur.user_id,ur.role_id
+		from dynamic_user_role ur
+    </sql>
+
+  <select id="getUserRoleList"  resultMap="BaseResultMap" >
+    <include refid="selectSysUserRole"/>
+    where ur.user_id = #{userId}
+    <if test="roleId != null and roleId != ''">
+      and ur.role_id = #{roleId}
+    </if>
+  </select>
+</mapper>
